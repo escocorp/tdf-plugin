@@ -3,5 +3,8 @@
   "author": "grelylrz(kuko)",
   "main": "esco.tdf.TDFPlugin",
   "description": "A plugin for tdf gamemode",
-  "version": 1.0
+  "version": 1.0,
+  "dependencies": [
+    "plugin"
+  ]
 }
