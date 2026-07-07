@@ -54,7 +54,7 @@ repositories {
     }
 }
 
-val mindustryVersion = "v158.1"
+val mindustryVersion = "v159"
 val useLatest = false
 
 dependencies {

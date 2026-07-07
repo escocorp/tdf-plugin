@@ -252,7 +252,7 @@ object TDGamemode {
             rules.defaultTeam.rules().unitDamageMultiplier = 1f
             rules.waveTeam.rules().unitDamageMultiplier = 0f
             rules.waveTeam.rules().blockDamageMultiplier = 0f
-            rules.bannedUnits.addAll(
+            /*rules.bannedUnits.addAll(
                 flare,
                 dagger,
                 // nova,
@@ -269,7 +269,20 @@ object TDGamemode {
                 spiroct,
                 arkyid,
                 toxopid
-            )
+            )*/
+            with(rules.bannedUnits) {
+                add(flare)
+                add(dagger)
+                add(crawler)
+                add(mace)
+                add(fortress)
+                add(scepter)
+                add(reign)
+                add(atrax)
+                add(spiroct)
+                add(arkyid)
+                add(toxopid)
+            }
             Vars.state.rules = rules
             Call.setRules(rules)
         }, 1f)
